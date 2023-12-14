@@ -1,0 +1,39 @@
+img {
+  width: 50px;
+  height: 50px;
+}
+.ui-autocomplete {
+  max-height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.loader {
+  display: none !important;
+}
+.col.text-center.justify-content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* You might need to adjust the image dimensions based on your icons */
+#weatherIcon {
+  width: 50px; /* Adjust to your desired size */
+  height: 50px; /* Adjust to your desired size */
+}
+ul {
+  list-style: none;
+}
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
+.weather-app,
+.imgbox img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.col-md-4:hover {
+  transform: scale(1.05);
+}
